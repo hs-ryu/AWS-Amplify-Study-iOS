@@ -1,0 +1,79 @@
+PODS:
+  - Amplify (1.28.0):
+    - Amplify/Default (= 1.28.0)
+  - Amplify/Default (1.28.0)
+  - Amplify/Tools (1.28.0)
+  - AmplifyPlugins/AWSAPIPlugin (1.28.0):
+    - AppSyncRealTimeClient (~> 2.0)
+    - AWSCore (~> 2.27.0)
+    - AWSPluginsCore (= 1.28.0)
+  - AmplifyPlugins/AWSCognitoAuthPlugin (1.28.0):
+    - AWSAuthCore (~> 2.27.0)
+    - AWSCognitoIdentityProvider (~> 2.27.0)
+    - AWSCognitoIdentityProviderASF (~> 2.27.0)
+    - AWSCore (~> 2.27.0)
+    - AWSMobileClient (~> 2.27.0)
+    - AWSPluginsCore (= 1.28.0)
+  - AmplifyPlugins/AWSS3StoragePlugin (1.28.0):
+    - AWSCore (~> 2.27.0)
+    - AWSPluginsCore (= 1.28.0)
+    - AWSS3 (~> 2.27.0)
+  - AppSyncRealTimeClient (2.1.1):
+    - Starscream (~> 4.0.4)
+  - AWSAuthCore (2.27.15):
+    - AWSCore (= 2.27.15)
+  - AWSCognitoIdentityProvider (2.27.15):
+    - AWSCognitoIdentityProviderASF (= 2.27.15)
+    - AWSCore (= 2.27.15)
+  - AWSCognitoIdentityProviderASF (2.27.15):
+    - AWSCore (= 2.27.15)
+  - AWSCore (2.27.15)
+  - AWSMobileClient (2.27.15):
+    - AWSAuthCore (= 2.27.15)
+    - AWSCognitoIdentityProvider (= 2.27.15)
+    - AWSCognitoIdentityProviderASF (= 2.27.15)
+    - AWSCore (= 2.27.15)
+  - AWSPluginsCore (1.28.0):
+    - Amplify (= 1.28.0)
+    - AWSCore (~> 2.27.0)
+  - AWSS3 (2.27.15):
+    - AWSCore (= 2.27.15)
+  - Starscream (4.0.4)
+
+DEPENDENCIES:
+  - Amplify (~> 1.0)
+  - Amplify/Tools (~> 1.0)
+  - AmplifyPlugins/AWSAPIPlugin (~> 1.0)
+  - AmplifyPlugins/AWSCognitoAuthPlugin (~> 1.0)
+  - AmplifyPlugins/AWSS3StoragePlugin (~> 1.0)
+
+SPEC REPOS:
+  trunk:
+    - Amplify
+    - AmplifyPlugins
+    - AppSyncRealTimeClient
+    - AWSAuthCore
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSMobileClient
+    - AWSPluginsCore
+    - AWSS3
+    - Starscream
+
+SPEC CHECKSUMS:
+  Amplify: dfa12fad1609b1388d0b2fb6f99b3140cd942d09
+  AmplifyPlugins: 1bac66d0349fa307008f6f7711b09d0f80e78c30
+  AppSyncRealTimeClient: 937360221f2b664c4c33ae142a60643e64f480cd
+  AWSAuthCore: 0bac0e67c28d620c8f823c88bd15d552544e801a
+  AWSCognitoIdentityProvider: a8d244d0cdfeff425fe20a2fb49b7e9cb89c4748
+  AWSCognitoIdentityProviderASF: 5dccf24b43c287eb1949e83cefccb6c25cdc04b7
+  AWSCore: c67277201b6aca10e4cf24638eadaa67c85ebf03
+  AWSMobileClient: 6f60d1fb6373e21aaada443dd4d4bf087158614d
+  AWSPluginsCore: 7f0f984d787a4fe79d3d52c3d34e1779d1fc9bb8
+  AWSS3: 09801b290f8818f532694cabd5d503c7474eb3df
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+
+PODFILE CHECKSUM: e5cab0f634e680a5cdc3e1e7b48aaa833645f08d
+
+COCOAPODS: 1.11.3

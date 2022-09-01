@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E45D46B28C08618004D7A61 /* CaptureImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E45D46A28C08618004D7A61 /* CaptureImageView.swift */; };
+		0E954AB628C077D300843360 /* NoteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E954AB328C077D300843360 /* NoteData.swift */; };
+		0E954AB728C077D300843360 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E954AB428C077D300843360 /* AmplifyModels.swift */; };
+		0E954AB828C077D300843360 /* NoteData+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E954AB528C077D300843360 /* NoteData+Schema.swift */; };
 		0E96FF6D28BFB65E002EDB0F /* iOS_Getting_StartedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96FF6C28BFB65E002EDB0F /* iOS_Getting_StartedApp.swift */; };
 		0E96FF6F28BFB65E002EDB0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96FF6E28BFB65E002EDB0F /* ContentView.swift */; };
 		0E96FF7128BFB65F002EDB0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E96FF7028BFB65F002EDB0F /* Assets.xcassets */; };
 		0E96FF7428BFB65F002EDB0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E96FF7328BFB65F002EDB0F /* Preview Assets.xcassets */; };
+		0EAC0E6928BFC88A00464DDB /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC0E6728BFC88A00464DDB /* amplifyconfiguration.json */; };
+		0EAC0E6A28BFC88A00464DDB /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC0E6828BFC88A00464DDB /* awsconfiguration.json */; };
+		0EAC0E6C28BFC8CC00464DDB /* Backend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC0E6B28BFC8CC00464DDB /* Backend.swift */; };
+		998199F8620497D4FA449BE0 /* Pods_iOS_Getting_Started.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53173120CECF3AF6BC2F42B0 /* Pods_iOS_Getting_Started.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E45D46A28C08618004D7A61 /* CaptureImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureImageView.swift; sourceTree = "<group>"; };
+		0E87A38328BFD9A200047C35 /* iOS-Getting-Started-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "iOS-Getting-Started-Info.plist"; sourceTree = SOURCE_ROOT; };
+		0E954AB328C077D300843360 /* NoteData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteData.swift; sourceTree = "<group>"; };
+		0E954AB428C077D300843360 /* AmplifyModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmplifyModels.swift; sourceTree = "<group>"; };
+		0E954AB528C077D300843360 /* NoteData+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NoteData+Schema.swift"; sourceTree = "<group>"; };
 		0E96FF6928BFB65E002EDB0F /* iOS Getting Started.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Getting Started.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E96FF6C28BFB65E002EDB0F /* iOS_Getting_StartedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Getting_StartedApp.swift; sourceTree = "<group>"; };
 		0E96FF6E28BFB65E002EDB0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0E96FF7028BFB65F002EDB0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E96FF7328BFB65F002EDB0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0EAC0E6728BFC88A00464DDB /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		0EAC0E6828BFC88A00464DDB /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		0EAC0E6B28BFC8CC00464DDB /* Backend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backend.swift; sourceTree = "<group>"; };
+		53173120CECF3AF6BC2F42B0 /* Pods_iOS_Getting_Started.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Getting_Started.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A859D24068820EC15E9ED61A /* Pods-iOS Getting Started.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Getting Started.debug.xcconfig"; path = "Target Support Files/Pods-iOS Getting Started/Pods-iOS Getting Started.debug.xcconfig"; sourceTree = "<group>"; };
+		BE29DF979EEBE45FD756FFFD /* Pods-iOS Getting Started.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Getting Started.release.xcconfig"; path = "Target Support Files/Pods-iOS Getting Started/Pods-iOS Getting Started.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +45,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				998199F8620497D4FA449BE0 /* Pods_iOS_Getting_Started.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E954AB128C077D300843360 /* generated */ = {
+			isa = PBXGroup;
+			children = (
+				0E954AB228C077D300843360 /* models */,
+			);
+			name = generated;
+			path = amplify/generated;
+			sourceTree = SOURCE_ROOT;
+		};
+		0E954AB228C077D300843360 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				0E954AB328C077D300843360 /* NoteData.swift */,
+				0E954AB428C077D300843360 /* AmplifyModels.swift */,
+				0E954AB528C077D300843360 /* NoteData+Schema.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		0E96FF6028BFB65E002EDB0F = {
 			isa = PBXGroup;
 			children = (
+				0EAC0E6728BFC88A00464DDB /* amplifyconfiguration.json */,
+				0EAC0E6828BFC88A00464DDB /* awsconfiguration.json */,
 				0E96FF6B28BFB65E002EDB0F /* iOS Getting Started */,
 				0E96FF6A28BFB65E002EDB0F /* Products */,
+				B8CCAE77B5A015B3629018C4 /* Pods */,
+				F543F98FC86B351A7ABA0D48 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +94,14 @@
 		0E96FF6B28BFB65E002EDB0F /* iOS Getting Started */ = {
 			isa = PBXGroup;
 			children = (
+				0E954AB128C077D300843360 /* generated */,
+				0E87A38328BFD9A200047C35 /* iOS-Getting-Started-Info.plist */,
 				0E96FF6C28BFB65E002EDB0F /* iOS_Getting_StartedApp.swift */,
 				0E96FF6E28BFB65E002EDB0F /* ContentView.swift */,
+				0E45D46A28C08618004D7A61 /* CaptureImageView.swift */,
 				0E96FF7028BFB65F002EDB0F /* Assets.xcassets */,
 				0E96FF7228BFB65F002EDB0F /* Preview Content */,
+				0EAC0E6B28BFC8CC00464DDB /* Backend.swift */,
 			);
 			path = "iOS Getting Started";
 			sourceTree = "<group>";
@@ -67,6 +114,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B8CCAE77B5A015B3629018C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A859D24068820EC15E9ED61A /* Pods-iOS Getting Started.debug.xcconfig */,
+				BE29DF979EEBE45FD756FFFD /* Pods-iOS Getting Started.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F543F98FC86B351A7ABA0D48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53173120CECF3AF6BC2F42B0 /* Pods_iOS_Getting_Started.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E96FF7728BFB65F002EDB0F /* Build configuration list for PBXNativeTarget "iOS Getting Started" */;
 			buildPhases = (
+				7C1B5251946D6C9766EF7FCC /* [CP] Check Pods Manifest.lock */,
 				0E96FF6528BFB65E002EDB0F /* Sources */,
 				0E96FF6628BFB65E002EDB0F /* Frameworks */,
 				0E96FF6728BFB65E002EDB0F /* Resources */,
+				9263A614B1053774AF8A4354 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,20 +191,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EAC0E6A28BFC88A00464DDB /* awsconfiguration.json in Resources */,
 				0E96FF7428BFB65F002EDB0F /* Preview Assets.xcassets in Resources */,
+				0EAC0E6928BFC88A00464DDB /* amplifyconfiguration.json in Resources */,
 				0E96FF7128BFB65F002EDB0F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7C1B5251946D6C9766EF7FCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS Getting Started-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9263A614B1053774AF8A4354 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS Getting Started/Pods-iOS Getting Started-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS Getting Started/Pods-iOS Getting Started-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS Getting Started/Pods-iOS Getting Started-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E96FF6528BFB65E002EDB0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E45D46B28C08618004D7A61 /* CaptureImageView.swift in Sources */,
+				0E954AB828C077D300843360 /* NoteData+Schema.swift in Sources */,
+				0E954AB728C077D300843360 /* AmplifyModels.swift in Sources */,
 				0E96FF6F28BFB65E002EDB0F /* ContentView.swift in Sources */,
+				0E954AB628C077D300843360 /* NoteData.swift in Sources */,
 				0E96FF6D28BFB65E002EDB0F /* iOS_Getting_StartedApp.swift in Sources */,
+				0EAC0E6C28BFC8CC00464DDB /* Backend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +376,7 @@
 		};
 		0E96FF7828BFB65F002EDB0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A859D24068820EC15E9ED61A /* Pods-iOS Getting Started.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -270,6 +386,7 @@
 				DEVELOPMENT_TEAM = BXU6534P3P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-Getting-Started-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -290,6 +407,7 @@
 		};
 		0E96FF7928BFB65F002EDB0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE29DF979EEBE45FD756FFFD /* Pods-iOS Getting Started.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,6 +417,7 @@
 				DEVELOPMENT_TEAM = BXU6534P3P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-Getting-Started-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
